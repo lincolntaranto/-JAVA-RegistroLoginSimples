@@ -57,10 +57,6 @@ public class App {
 
         }
 
-        input.close();
-        arquivo.close();
-        gravador.close();
-
         // Área de login
         
         System.out.println("===LOGIN===");
@@ -76,6 +72,10 @@ public class App {
                 System.out.println("Login ou senha não conferem.");
             }
 
+
+        input.close();
+        arquivo.close();
+        gravador.close();
 
     }
 
