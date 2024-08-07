@@ -28,7 +28,7 @@ public class App {
 
         // Confere se o login e a senha tem mais de 3 caracteres.
 
-        if (senha.length() < 3 && login.length() < 3) {
+        if (senha.length() < 3 || login.length() < 3) {
 
             System.out.println("Senha ou login muito curto.");
             
